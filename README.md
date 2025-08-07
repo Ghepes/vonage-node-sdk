@@ -66,6 +66,18 @@ Or to continually watch and run tests as you change the code:
 npm run test-watch
 ```
 
+
+# Curăță cache-ul NX (dacă este folosit)
+npx nx reset
+
+# Șterge directorul node_modules
+rm -rf node_modules
+
+# Reinstalează toate dependențele
+npm install
+
+
+
 ## Examples
 
 See the [Vonage Node Quickstarts repo](https://github.com/Vonage/vonage-node-code-snippets).
