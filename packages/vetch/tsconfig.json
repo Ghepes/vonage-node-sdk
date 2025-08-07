@@ -8,6 +8,10 @@
     "outDir": "dist/lib"
   },
 
+  "include": [
+    "lib/**/*.ts"
+  ],
+
   "exclude": [
     "__tests__",
     "jest.config.js",
